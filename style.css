@@ -30,7 +30,7 @@
 
 #primary-text h2{
     font-size: 4.5em;
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     padding: 0px 20px;
 }
 
@@ -60,3 +60,65 @@
     width: 100%;
     margin-top: 30px;
 }
+
+.projects-block h2{
+    font-size: 4em;
+    font-family: Playfair Display, serif;
+    margin-right: 20px;
+}
+
+.laptop-img img{
+  width: 100%;
+}
+
+.project-details{
+  width: 100%;
+  margin-top: -6px;
+}
+
+.tech-stack{
+  display: flex;
+}
+
+.project-name{
+  margin: 0px;
+  font-size: 1.5em;
+  font-family: Poppins, serif;
+  color: white;
+}
+
+.tech-details{
+  padding:10px 0px 30px 20px;
+  background-color: #1A2236;
+}
+
+.tech-stack p {
+  font-family: 'Poppins';
+  font-size: 14px;
+  background-color: #98DEDE;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.details-button{
+  border: solid 2px white;
+  width: 230px;
+}
+
+.details-button div{
+  display: flex;
+  align-items: center;
+}
+
+.details-button div p{
+  padding: 0px 28px 0px 15px;
+  font-size: 18px;
+  font-family: 'Poppins';
+  color: white;
+}
+
+
+
+
+
+
