@@ -30,9 +30,6 @@
 
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Personal Portfolio</b></h3>
 
@@ -143,7 +140,11 @@ You can deploy this project using: GitHub Pages,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Implement About us section**
+- [ ] **Implement a footer**
+- [ ] **Add a form in the footer**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,10 +187,8 @@ Give a ⭐️ if you like this project and how I managed to build it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
-- **HTML**
-- **CSS**
 
-
-
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
