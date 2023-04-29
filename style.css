@@ -41,9 +41,6 @@
   display: flex;
   height: 78px;
   align-items: center;
-}
-
-#mobile-menu {
   width: 20px;
   background: url(images/ic_menu.png);
   background-repeat: no-repeat;
@@ -105,7 +102,7 @@
   color: #1a2236;
 }
 
-.geometry-image2  {
+.geometry-image2 {
   height: 160px;
   margin-top: 30px;
   background: url(images/image_geometry_2.png);
@@ -169,12 +166,12 @@
 @media only screen and (min-width: 768px) {
   .geometry-image1 img {
     display: block;
+
     /* background: url(images/image-geometry_1.svg);
     background-repeat: no-repeat; */
-
   }
 
-  .geometry-image2  {
+  .geometry-image2 {
     display: none;
   }
 
