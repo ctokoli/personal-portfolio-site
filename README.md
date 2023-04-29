@@ -23,9 +23,9 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
-**Hello Microverse** is a first coding project for new Microverse students. This helps them to understand the concept of linters configuration, version control, GitHub flow and open pull request.
+**Personal Portfolio**  is an indepth personal project that expose students to fundamental concepts of web development. Working on this project help us to learn about CSS Flexbox and Grid concepts. We also learn about making the website responsive by using CSS Media queries.     
 
 
 
