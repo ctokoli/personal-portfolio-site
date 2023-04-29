@@ -43,8 +43,10 @@
   align-items: center;
 }
 
-#menu-icon {
+#mobile-menu {
   width: 20px;
+  background: url(images/ic_menu.png);
+  background-repeat: no-repeat;
 }
 
 .main-header {
@@ -75,6 +77,7 @@
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
+  margin: 0;
 }
 
 .content {
@@ -94,6 +97,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -101,9 +105,11 @@
   color: #1a2236;
 }
 
-.geometry-image2 img {
-  width: 100%;
+.geometry-image2  {
+  height: 160px;
   margin-top: 30px;
+  background: url(images/image_geometry_2.png);
+  background-repeat: no-repeat;
 }
 
 .geometry-image1 img {
@@ -163,9 +169,12 @@
 @media only screen and (min-width: 768px) {
   .geometry-image1 img {
     display: block;
+    /* background: url(images/image-geometry_1.svg);
+    background-repeat: no-repeat; */
+
   }
 
-  .geometry-image2 img {
+  .geometry-image2  {
     display: none;
   }
 
@@ -179,8 +188,9 @@
   }
 
   .content p {
-    font-size: 20px;
     padding: 0 0;
+    margin-top: 10px;
+    letter-spacing: normal;
   }
 
   .mobile-header {
