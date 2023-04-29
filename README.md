@@ -1,66 +1,72 @@
 <a name="readme-top"></a>
 
+
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [📹 Video Description](#video-description)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👤 Author](#author)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 Hello-Microverse ](#-Hello-Microverse-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment ](#deployment-)
+  - [👤 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-# 📖 Technopreneur <a name="about-project"></a>
+# 📖 Hello Microverse <a name="about-project"></a>
 
-**Technopreneur** is a responsive, pixel-perfect, and optimized web app for the flagship event of IEDC MEC, and one of the most looked forward to events in MEC. It is the annual entrepreneurial and managerial symposium of Model Engineering College and includes a plethora of events including Research, Designing, Networking, Discussion, Knowledge and much more.
+**Hello Microverse** is a first coding project for new Microverse students. This helps them to understand the concept of linters configuration, version control, GitHub flow and open pull request.
+
+
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Personal Portfolio</b></h3>
+
+</div>
+
+
+
+<!-- PROJECT DESCRIPTION -->
+
+# Personal Portfolio
+
+
+**Personal Portfolio** is is an indepth personal project that expose students to fundamental concepts of web development. Working on this project help us to learn about CSS Flexbox and Grid concepts. We also learn about making the website responsive by using CSS Media queries.     
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
+   
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive Design.**
-- **Pixel Perfect design.**
-- **Multiple pages app.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📹 Video Description <a name="video-description"></a>
-
-- [Here is a video walk through given by myself.](https://www.loom.com/share/b80ba571fff74ae5ae6ef9bca6c27559)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Here is the link to the live experience](https://adnanolarmmi.github.io/Technopreneur/).
-
-> |     | Mobile version                      | Desktop version                      |     |
-> | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./images/screenshots/mobile.gif) | ![Screenshot2](./images/screenshots/desktop.gif) |
+- **Responsive UI**
+- **Track CSS Errors**
+- **Track CSS Errors**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,12 +89,12 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone https://github.com/AdnanOlarmmi/Technopreneur.git
+git clone https://github.com/ctokoli/Hello-Microverse.git
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Technopreneur``**
+**``you@your-Pc-name:~$ cd Hello Microverse``**
 
 ### Install
 
@@ -117,10 +123,7 @@ npx hint .
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-- Track JavaScript linter errors run:
-```
-npx eslint .
-```
+
 
 ### Deployment <a name="deployment"></a>
 
@@ -132,19 +135,15 @@ You can deploy this project using: GitHub Pages,
 
 ## 👤 Author <a name="author"></a>
 
-👤 **Is-haq, Adnan Olamilekan**
+👤 **Cephas, Tokoli**
 
-- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
-- Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
-- LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
+- GitHub: [@Ctokoli](https://github.com/ctokoli/)
+- Twitter: [@Ctokoli](https://twitter.com/ctokoli)
+- LinkedIn: [Cephas Tokoli](https://www.linkedin.com/in/cephas-tokoli-a25204123/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement Transitions Animation for hover effect.**
-- [ ] **Implement a Sign up page.**
-- [ ] **Add more pages.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,10 +164,8 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
 - Project from [Microverse](https://www.microverse.org/) html & css module.
-- Images inspired by [Unsplash](https://unsplash.com/).
-- Topic inspired by [Khadija Hamdani](https://www.researchgate.net/publication/329972741_Knowledge_based_entrepreneurship_the_role_of_networks).
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
@@ -189,7 +186,10 @@ Give a ⭐️ if you like this project and how I managed to build it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
+- **HTML**
+- **CSS**
 
-This project is [MIT](./LICENSE) licensed.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
