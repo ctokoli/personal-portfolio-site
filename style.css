@@ -27,7 +27,7 @@
   width: 40px;
 }
 
-.main-header{
+.main-header {
   display: none;
 }
 
@@ -65,7 +65,7 @@
   align-items: center;
 }
 
-.button:hover{
+.button:hover {
   background-color: white;
   color: #1a2236;
 }
@@ -75,7 +75,7 @@
   margin-top: 30px;
 }
 
-.geometry-image1 img{
+.geometry-image1 img {
   display: none;
 }
 
@@ -135,8 +135,9 @@
   }
 
   .geometry-image2 img {
-    display:none ;
+    display: none;
   }
+
   .headline {
     display: flex;
   }
@@ -150,36 +151,37 @@
     font-size: 20px;
     padding: 0 0;
   }
-.mobile-header {
-  display: none;
-}
 
-.main-header {
-  padding: 10px;
+  .mobile-header {
+    display: none;
+  }
+
+  .main-header {
+    padding: 10px;
     display: block;
     margin-bottom: 10px;
     border-bottom: solid 1px #e1e1e1;
-}
+  }
 
-.main-menu ul li {
-  list-style-type: none;
-  padding: 0 20px;
-  font-size: 18px;
-  font-family: Poppins, serif;
-  cursor: pointer;
-}
-.main-menu ul li a {
-  text-decoration: none;
-  color: black;
-}
+  .main-menu ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-family: Poppins, serif;
+    cursor: pointer;
+  }
 
-.main-menu ul {
-display: flex;
- justify-content: center;
-}
+  .main-menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
 
-.project{
-  display: none;
-}
+  .main-menu ul {
+    display: flex;
+    justify-content: center;
+  }
 
+  .project {
+    display: none;
+  }
 }
