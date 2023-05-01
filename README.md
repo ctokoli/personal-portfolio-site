@@ -35,14 +35,7 @@
 
 </div>
 
-
-
-<!-- PROJECT DESCRIPTION -->
-
-# Personal Portfolio
-
-
-**Personal Portfolio** is is an indepth personal project that expose students to fundamental concepts of web development. Working on this project help us to learn about CSS Flexbox and Grid concepts. We also learn about making the website responsive by using CSS Media queries.     
+<!-- PROJECT DESCRIPTION -->   
 
 
 ## 🛠 Built With <a name="built-with"></a>
