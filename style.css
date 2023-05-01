@@ -110,8 +110,8 @@
   background-repeat: no-repeat;
 }
 
-.geometry-image1  {
-  display: none; 
+.geometry-image1 {
+  display: none;
 }
 
 .laptop-img img {
@@ -165,17 +165,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-
-  
-
   .geometry-image2 {
     display: none;
   }
 
   .geometry-image1 {
     display: block;
-     background: url(images/image-geometry_1.svg);
-    background-repeat: no-repeat; 
+    background: url(images/image-geometry_1.svg);
+    background-repeat: no-repeat;
     height: 877px;
     min-width: 702px;
   }
