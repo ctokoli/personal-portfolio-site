@@ -25,7 +25,7 @@
 
 # 📖 Personal Portfolio <a name="about-project"></a>
 
-**Personal Portfolio**  is an indepth personal project that expose students to fundamental concepts of web development. Working on this project help us to learn about CSS Flexbox and Grid concepts. We also learn about making the website responsive by using CSS Media queries.     
+**Personal Portfolio**  The goal of this first project is to learn how to parse Figma designs and create a user interface, using Flexbox to place elements on the page, and using images as backgrounds.
 
 
 
