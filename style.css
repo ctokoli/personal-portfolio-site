@@ -1,0 +1,232 @@
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#shape {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  left: 28px;
+  top: -9px;
+}
+
+#shape1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  left: 34px;
+  top: 0;
+  background: url(images/Shape.svg);
+  background-blend-mode: normal, overlay, normal;
+}
+
+#mobile-logo {
+  position: absolute;
+  width: 72px;
+  height: 74px;
+  left: 0;
+  top: 0;
+  background: url(images/Shape1.svg);
+  background-blend-mode: normal, overlay, normal;
+}
+
+#mobile-menu {
+  display: flex;
+  height: 78px;
+  align-items: center;
+  width: 20px;
+  background: url(images/ic_menu.png);
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.main-header {
+  display: none;
+}
+
+.projects-block h2 {
+  font-size: 4em;
+  font-family: Playfair Display, serif;
+  margin-right: 20px;
+}
+
+#primary-text h1 {
+  font-size: 50px;
+  font-family: Playfair Display, serif;
+  padding: 0 20px;
+  color: #1a2236;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.content p {
+  font-family: Poppins, serif;
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: #1a2236;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 288px;
+  height: 50px;
+  font-family: Poppins, serif;
+  color: white;
+  background-color: #1a2236;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.geometry-image2 {
+  height: 222px;
+  margin-top: 30px;
+  background: url(images/image_geometry_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.geometry-image1 {
+  display: none;
+}
+
+.laptop-img img {
+  width: 100%;
+}
+
+.project-details {
+  width: 100%;
+  margin-top: -6px;
+}
+
+.tech-stack {
+  display: flex;
+}
+
+.project-name {
+  margin: 0;
+  font-size: 1.5em;
+  font-family: Poppins, serif;
+  color: white;
+}
+
+.tech-details {
+  padding: 10px 0 30px 20px;
+  background-color: #1a2236;
+}
+
+.tech-stack p {
+  font-family: Poppins, serif;
+  font-size: 14px;
+  background-color: #98dede;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.details-button {
+  border: solid 2px white;
+  width: 230px;
+}
+
+.details-button div {
+  display: flex;
+  align-items: center;
+}
+
+.details-button div p {
+  padding: 0 28px 0 15px;
+  font-size: 18px;
+  font-family: Poppins, serif;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .geometry-image2 {
+    display: none;
+  }
+
+  .geometry-image1 {
+    display: block;
+    background: url(images/image-geometry_1.svg);
+    background-repeat: no-repeat;
+    height: 877px;
+    min-width: 702px;
+  }
+
+  .headline {
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    display: block;
+    padding: 0 24px;
+  }
+
+  .content p {
+    padding: 0 0;
+    margin-top: 10px;
+    letter-spacing: normal;
+  }
+
+  .mobile-header {
+    display: none;
+  }
+
+  .main-header {
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #e1e1e1;
+  }
+
+  .main-menu ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-family: Poppins, serif;
+    cursor: pointer;
+  }
+
+  .main-menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .main-menu ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project {
+    display: none;
+  }
+}
