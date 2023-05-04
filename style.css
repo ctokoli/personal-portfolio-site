@@ -96,7 +96,7 @@
 }
 
 .button {
-  width: 288px;
+  width: 355px;
   height: 50px;
   font-family: Poppins, serif;
   color: white;
@@ -162,10 +162,10 @@
 
 .tech-stack p {
   font-family: Poppins, serif;
-  font-size: 14px;
+  font-size: 12px;
   background-color: #98dede;
-  padding: 10px;
-  margin-right: 20px;
+  padding: 4px;
+  margin-right: 11px;
 }
 
 .details-button {
@@ -192,6 +192,17 @@
   justify-content: center;
 }
 
+.project-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.competency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .button.download {
   display: flex;
   align-items: center;
@@ -211,7 +222,14 @@
   margin-top: 20px;
   width: 289px;
   height: 289px;
-  padding: 30px;
+  padding: 32px;
+}
+
+.grid-item-head ul li {
+  list-style: none;
+  font-weight: 900;
+  position: relative;
+  right: 17px;
 }
 
 .language {
@@ -239,7 +257,6 @@
   color: white;
   font-family: 'Poppins', serif;
   font-style: normal;
-  font-weight: 800;
   font-size: 20px;
   line-height: 30px;
 }
