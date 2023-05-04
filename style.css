@@ -192,15 +192,15 @@
   justify-content: center;
 }
 
-.project-section{
+.project-section {
   display: flex;
   flex-direction: column;
 }
 
-.competency{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.competency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .button.download {
