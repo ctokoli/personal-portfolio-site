@@ -149,8 +149,9 @@
 }
 
 .project-name {
+  font-weight: 300;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 20px;
   font-family: Poppins, serif;
   color: white;
 }
@@ -160,17 +161,44 @@
   background-color: #1a2236;
 }
 
-.tech-stack p {
-  font-family: Poppins, serif;
+ul.tech-stack li {
+  font-weight: 300;
+  font-family: 'Poppins', serif;
   font-size: 12px;
-  background-color: #98dede;
+  position: relative;
+  right: 47px;
   padding: 4px;
-  margin-right: 11px;
+  margin: 7px;
+  list-style: none;
+  background-color: #98dede;
 }
 
-.details-button {
-  border: solid 2px white;
-  width: 230px;
+.details-button button {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', serif;
+  background: transparent;
+  display: flex;
+  width: 176px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.union {
+  background-image: url(images/Union.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 15px;
+  top: 4px;
 }
 
 .details-button div {
@@ -225,6 +253,12 @@
   padding: 32px;
 }
 
+li.grid-item {
+  list-style: none;
+  position: relative;
+  right: 17px;
+}
+
 .grid-item-head ul li {
   list-style: none;
   font-weight: 900;
@@ -254,11 +288,13 @@
 }
 
 .grid-item ul > li {
+  list-style: disc;
   color: white;
   font-family: 'Poppins', serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 30px;
+  font-weight: 100;
 }
 
 .grid-item h3 {
@@ -266,8 +302,10 @@
   font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 30px;
+  position: relative;
+  left: 23px;
 }
 
 /* Desktop View Media Quries */
