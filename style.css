@@ -51,10 +51,21 @@
   display: none;
 }
 
+.headings {
+  font-size: 50px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Playfair Display, serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .projects-block h2 {
   font-size: 4em;
   font-family: Playfair Display, serif;
   margin-right: 20px;
+  color: #1a2236;
 }
 
 #primary-text h1 {
@@ -74,7 +85,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  letter-spacing: -0.01em;
   margin: 0;
   color: #1a2236;
 }
@@ -86,7 +96,7 @@
 }
 
 .button {
-  width: 288px;
+  width: 355px;
   height: 50px;
   font-family: Poppins, serif;
   color: white;
@@ -104,6 +114,13 @@
 .button:hover {
   background-color: white;
   color: #1a2236;
+  border: 1px solid  #1a2236;
+}
+
+.button:visited {
+  background-color: white;
+  color: #1a2236;
+  border: 2px solid  #1a2236;
 }
 
 .geometry-image2 {
@@ -132,8 +149,9 @@
 }
 
 .project-name {
+  font-weight: 300;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 20px;
   font-family: Poppins, serif;
   color: white;
 }
@@ -143,31 +161,154 @@
   background-color: #1a2236;
 }
 
-.tech-stack p {
-  font-family: Poppins, serif;
-  font-size: 14px;
+ul.tech-stack li {
+  font-weight: 300;
+  font-family: 'Poppins', serif;
+  font-size: 12px;
+  position: relative;
+  right: 47px;
+  padding: 4px;
+  margin: 7px;
+  list-style: none;
   background-color: #98dede;
-  padding: 10px;
-  margin-right: 20px;
 }
 
-.details-button {
-  border: solid 2px white;
-  width: 230px;
+.details-button button {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', serif;
+  background: transparent;
+  display: flex;
+  width: 176px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.union {
+  background-image: url(images/Union.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 15px;
+  top: 4px;
 }
 
 .details-button div {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .details-button div p {
-  padding: 0 28px 0 15px;
+  margin: 10px 15px 10px 0;
   font-size: 18px;
   font-family: Poppins, serif;
   color: white;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.competency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  background-image: url(images/ic_download.svg);
+  width: 26px;
+  height: 26px;
+  position: relative;
+  left: 10px;
+  background-repeat: no-repeat;
+}
+
+.grid-item {
+  margin-top: 20px;
+  width: 289px;
+  height: 289px;
+  padding: 32px;
+}
+
+li.grid-item {
+  list-style: none;
+  position: relative;
+  right: 17px;
+}
+
+.grid-item-head ul li {
+  list-style: none;
+  font-weight: 900;
+  position: relative;
+  right: 17px;
+}
+
+.language {
+  background-color: #1c528a;
+  background-image: url(images/hash_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.frameworks {
+  background-color: #e2505c;
+  background-image: url(images/Rectangle\ 19.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.skills {
+  background-color: #febf52;
+  background-image: url(images/ic_skills.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.grid-item ul > li {
+  list-style: disc;
+  color: white;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.grid-item h3 {
+  color: white;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 30px;
+  position: relative;
+  left: 23px;
+}
+
+/* Desktop View Media Quries */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
     display: none;
