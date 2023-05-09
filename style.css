@@ -308,6 +308,18 @@ li.grid-item {
   left: 23px;
 }
 
+/* form css */
+.form{
+  background-color: #f9f9fa;
+}
+
+.form-background{
+  background-image: url(images/image_geometry_3.svg);
+  height: 74px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
 /* Desktop View Media Quries */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
