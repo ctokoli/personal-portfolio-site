@@ -309,7 +309,7 @@ li.grid-item {
 }
 
 /* form css */
-.form{
+.form-section{
   background-color: #f9f9fa;
 }
 
@@ -318,6 +318,20 @@ li.grid-item {
   height: 74px;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+}
+
+.form-view{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-view input{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-view label{
+  margin-bottom: 5px;
 }
 
 /* Desktop View Media Quries */
