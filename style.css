@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+}
+
 .mobile-header {
   display: flex;
   justify-content: space-between;
@@ -320,19 +324,41 @@ li.grid-item {
   margin-bottom: 30px;
 }
 
-.form-view{
+.input-group{
   display: flex;
   flex-direction: column;
+  margin: 0px 20px;
 }
 
 .form-view input{
   padding: 10px;
   margin-bottom: 10px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #DFDFE0;
 }
 
 .form-view label{
   margin-bottom: 5px;
+  font-size: 14px;
+  font-family: 'Poppins';
 }
+
+.input-form {
+  height: 50px;
+  font-family: Poppins, serif;
+  color: white;
+  background-color: #1a2236;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
 
 /* Desktop View Media Quries */
 @media only screen and (min-width: 768px) {
