@@ -1,5 +1,5 @@
-body{
-  margin: 0px;
+body {
+  margin: 0;
 }
 
 .mobile-header {
@@ -165,18 +165,6 @@ body{
   background-color: #1a2236;
 }
 
-ul.tech-stack li {
-  font-weight: 300;
-  font-family: 'Poppins', serif;
-  font-size: 12px;
-  position: relative;
-  right: 47px;
-  padding: 4px;
-  margin: 7px;
-  list-style: none;
-  background-color: #98dede;
-}
-
 .details-button button {
   font-weight: 500;
   font-size: 16px;
@@ -209,6 +197,17 @@ ul.tech-stack li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.form-section p {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
 }
 
 .details-button div p {
@@ -263,13 +262,6 @@ li.grid-item {
   right: 17px;
 }
 
-.grid-item-head ul li {
-  list-style: none;
-  font-weight: 900;
-  position: relative;
-  right: 17px;
-}
-
 .language {
   background-color: #1c528a;
   background-image: url(images/hash_icon.svg);
@@ -291,16 +283,6 @@ li.grid-item {
   background-position: 100% 100%;
 }
 
-.grid-item ul > li {
-  list-style: disc;
-  color: white;
-  font-family: 'Poppins', serif;
-  font-style: normal;
-  font-size: 19px;
-  line-height: 30px;
-  font-weight: 100;
-}
-
 .grid-item h3 {
   color: white;
   font-family: 'Poppins', serif;
@@ -313,24 +295,24 @@ li.grid-item {
 }
 
 /* form css */
-.form-section{
+.form-section {
   background-color: #f9f9fa;
 }
 
-.form-background{
+.form-background {
   background-image: url(images/image_geometry_3.svg);
   height: 74px;
   background-repeat: no-repeat;
   margin-bottom: 30px;
 }
 
-.input-group{
+.input-group {
   display: flex;
   flex-direction: column;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
-.form-view input{
+.form-view input {
   padding: 10px;
   margin-bottom: 10px;
   height: 26px;
@@ -338,16 +320,16 @@ li.grid-item {
   border: 1px solid #dfdfe0;
 }
 
-.form-view label{
+.form-view label {
   margin-bottom: 5px;
   font-size: 12px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   color: #7d7c84;
 }
 
 .input-form {
   height: 50px;
-  font-family: Poppins, serif;
+  font-family: 'Poppins', serif;
   color: white;
   background-color: #1a2236;
   align-items: center;
@@ -361,22 +343,21 @@ li.grid-item {
 }
 
 .input-group textarea {
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   padding: 12px;
   border-radius: 5px;
   border: 1px solid #dfdfe0;
-  font-family: 'Poppins';
   font-size: 14px;
   color: #7d7c84;
 }
 
-.footer{
-background-color: #1a2236;
-margin-top: 20px;
-padding-top: 1px;
+.footer {
+  background-color: #1a2236;
+  margin-top: 20px;
+  padding-top: 1px;
 }
 
-.link{
+.link {
   background-image: url(images/ic_link_teal.svg);
   background-repeat: no-repeat;
   height: 27px;
@@ -389,14 +370,12 @@ padding-top: 1px;
   justify-content: center;
 }
 
-.get-cv a{
+.get-cv a {
   text-decoration: none;
   color: #92dcdc;
   font-family: Poppins, serif;
   padding: 9px;
-
 }
-
 
 .form-section h2 {
   margin-top: 32px;
@@ -409,39 +388,52 @@ padding-top: 1px;
   color: #1a2236;
 }
 
-.form-section p {
-  margin-top: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  color: #1a2236;
-}
-
 .get-started {
- margin-left: 20px;
-
+  margin-left: 20px;
 }
 
 ul.social-contents {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
-.social-contents li{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding-top: 20px;
-padding-bottom: 35px;
+.social-contents li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 
+.grid-item-head ul li {
+  list-style: none;
+  font-weight: 900;
+  position: relative;
+  right: 17px;
+}
 
+ul.tech-stack li {
+  font-weight: 300;
+  font-family: 'Poppins', serif;
+  font-size: 12px;
+  position: relative;
+  right: 47px;
+  padding: 4px;
+  margin: 7px;
+  list-style: none;
+  background-color: #98dede;
+}
 
-
+.grid-item ul > li {
+  list-style: disc;
+  color: white;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 100;
+}
 
 /* Desktop View Media Quries */
 @media only screen and (min-width: 768px) {
