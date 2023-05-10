@@ -396,6 +396,27 @@ background-color: #1a2236;
 }
 
 
+
+.social-contents li{
+ display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin: 300px;
+
+}
+
+
+
+.social-contents a{
+ padding: 15px;
+ 
+ }
+
+
+
+
+
 /* Desktop View Media Quries */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
