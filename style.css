@@ -372,6 +372,8 @@ li.grid-item {
 
 .footer{
 background-color: #1a2236;
+margin-top: 20px;
+padding-top: 1px;
 }
 
 .link{
@@ -383,7 +385,7 @@ background-color: #1a2236;
 
 .get-cv {
   display: flex;
-  margin-top: 30px;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -419,22 +421,25 @@ background-color: #1a2236;
 }
 
 .get-started {
- margin-left: 30px;
+ margin-left: 20px;
 
 }
 
-
-
-
-
+ul.social-contents {
+  padding: 0px;
+  margin: 0px;
+}
 
 .social-contents li{
- display: flex;
+display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
-margin-bottom: 20px;
+padding-top: 20px;
+padding-bottom: 35px;
 }
+
+
 
 
 
