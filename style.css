@@ -335,13 +335,14 @@ li.grid-item {
   margin-bottom: 10px;
   height: 26px;
   border-radius: 5px;
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
 }
 
 .form-view label{
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Poppins';
+  color: #7d7c84;
 }
 
 .input-form {
@@ -357,6 +358,41 @@ li.grid-item {
   margin-top: 20px;
   cursor: pointer;
   border: none;
+}
+
+.input-group textarea {
+  font-family: 'Poppins';
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #dfdfe0;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #7d7c84;
+}
+
+.footer{
+background-color: #1a2236;
+}
+
+.link{
+  background-image: url(images/ic_link_teal.svg);
+  background-repeat: no-repeat;
+  height: 27px;
+  width: 27px;
+}
+
+.get-cv {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.get-cv a{
+  text-decoration: none;
+  color: #92dcdc;
+  font-family: Poppins, serif;
+  padding: 9px;
+
 }
 
 
