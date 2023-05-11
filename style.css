@@ -507,6 +507,12 @@ ul.tech-stack li {
     justify-content: center;
   }
 
+  .main-menu ul li a:hover {
+    transform: scale(2);
+    color: #e2505c;
+    font-size: 17px;
+  }
+
   .project {
     display: none;
   }
