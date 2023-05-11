@@ -455,14 +455,27 @@ ul.tech-stack li {
   }
 
   .content {
+    margin: 0 auto;
+    width: 70%;
     display: block;
-    padding: 0 24px;
   }
 
   .content p {
     padding: 0 0;
     margin-top: 10px;
     letter-spacing: normal;
+  }
+
+  #primary-text h1 {
+    position: relative;
+    width: 80%;
+    left: 80px;
+    font-size: 90px;
+    margin-bottom: 40px;
+  }
+
+  .button {
+    width: 254px;
   }
 
   .mobile-header {
