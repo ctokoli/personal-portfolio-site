@@ -521,7 +521,7 @@ ul.tech-stack li {
 
   .project-section{
     display: grid;
-    grid-template-columns: 1fr 1fr 0.6fr;
+    grid-template-columns: 1fr 1fr 0.9fr;
     grid-template-rows: 0.37fr 0.1fr 0.2fr 0.8fr;
     grid-template-areas:
     "header aside aside aside"
@@ -536,7 +536,6 @@ ul.tech-stack li {
 
   .a {
      grid-area: header;
-   
   }
 
   .a-img{
@@ -545,16 +544,19 @@ ul.tech-stack li {
     height: 129px;
     width: 129px;
     position: relative;
-    left: 410px;
+    left: 355px;
     top: -145px;
   }
+
+  .img2 img {
+    height:330px;
+}
 
   .headings.a h2 {
     transform: rotate(-90deg);
     position: relative;
     right: 30px;
     margin-top: 0px;
-    top: -32px;
     font-weight: 100;
 }
   
@@ -563,33 +565,77 @@ ul.tech-stack li {
   }
   
   .c {
-    background-color: #47cf73;
      grid-area: sidebar;
+     background-image: url(images/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 361px;
   }
+
+    /* .c-img {
+      background-image: url(images/image-geometry_2.svg);
+      background-repeat: no-repeat;
+      width: 540px;
+      height: 351px;
+      position: relative;
+  } */
+
+  .content.desk {
+    width: 130%;
+    margin-left: 20px;
+}
+
+  .grid-item {
+    margin-top: 20px;
+    width: 289px;
+    height: 289px;
+    padding: 6px;
+}
   
   .d {
-    background-color: #E8F387;
     grid-area: main;
     display: flex;
     flex-direction: column-reverse;
     place-content: flex-end;
-    margin-top: 42px;
+    margin-top: 32px;
+}
+
+.d-img{
+  background-image: url(images/Group\ 83.png);
+  background-repeat: no-repeat;
+  height: 126px;
+  background-size: 228px;
+  position: relative;
+  left: 214px;
+  margin-top: -6px;
+}
+
+.laptop-img.img1 {
+    margin-top: 50px;
 }
   
   
   .e {
-    background-color: red;
      grid-area: cont;
+     margin-top: -7px;
   }
+
+  .e-img{
+    background-image: url(images/Shape5.png);
+    width: 175px;
+    height: 175px;
+  }
+  .laptop-img.img2 {
+    display: flex;
+    align-items: flex-end;
+}
   
   .f {
-    background-color: gold;
      grid-area: footer;
     
   }
   
   .g {
-    background-color: brown;
      grid-area: footer-side;
   }
 
@@ -598,6 +644,13 @@ ul.tech-stack li {
   .laptop-img img {
     width: auto;
 }
+
+.img3 img{
+  height: 291px;
+  position: relative;
+  left: 123px
+}
+
   .img img {
     height: 413px;
     width: 100%;
@@ -612,8 +665,10 @@ ul.tech-stack li {
 }
 
 .img4 img{
-height: 199px;
+height: 264px;
+margin-top: -5px
 }
+
 h2.project-name.top {
   font-size: 35px;
   font-weight: 700;
@@ -624,7 +679,7 @@ section.about {
   display: flex;
   flex-direction: row-reverse;
   width: 1000px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 
 ul.grid {
