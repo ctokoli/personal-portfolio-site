@@ -437,14 +437,53 @@ ul.tech-stack li {
   display: none;
 }
 
+.c-img {
+  display: none;
+}
+
+.d-img {
+  display: none;
+}
+
+.g-img3 {
+  display: none;
+}
+
+.e-img {
+  display: none;
+}
+
 /* Desktop View Media Quries ------------------- */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
     display: none;
   }
 
+  .c-img {
+    display: block;
+  }
+
+  .d-img {
+    display: block;
+  }
+
+  .g-img3 {
+    display: block;
+  }
+
+  .e-img {
+    display: block;
+  }
+
   img.hide {
-    display: none;
+    display: block;
+  }
+
+  .dot-img1 img {
+    position: relative;
+    left: 566px;
+    top: 96px;
+    height: 166px;
   }
 
   .img5 img {
@@ -459,13 +498,6 @@ ul.tech-stack li {
     top: 99px;
     left: 63px;
   }
-
-  .dot-img1 img {
-    position: relative;
-    left: 566px;
-    top: 96px;
-    height: 166px;
-}
 
   .dot-img li {
     list-style-type: none;
@@ -512,13 +544,6 @@ ul.tech-stack li {
   .mobile-header {
     display: none;
   }
-
-  dot-img1 img {
-    position: relative;
-    left: 568px;
-    top: 98px;
-    height: 168px;
-}
 
   .main-header {
     padding: 10px;
@@ -570,7 +595,7 @@ ul.tech-stack li {
       "sidebar sidebar main main"
       "cont cont main main"
       "footer footer-side footer-side footer-side";
-      margin-top: 220px;
+    margin-top: 220px;
   }
 
   .project {
@@ -616,6 +641,7 @@ ul.tech-stack li {
     grid-area: sidebar;
     display: flex;
     flex-direction: row;
+
     /* background-image: url(images/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-position: 100%;
@@ -718,7 +744,7 @@ ul.tech-stack li {
     position: relative;
     left: 125px;
     margin-top: -7px;
-}
+  }
 
   .laptop-img.img1 {
     margin-top: 50px;
@@ -756,7 +782,7 @@ ul.tech-stack li {
     position: relative;
     left: 230px;
     top: -1px;
-}
+  }
 
   /* resize project images */
 
@@ -785,7 +811,7 @@ ul.tech-stack li {
   }
 
   .img4 img {
-    height:  284px;
+    height: 284px;
     margin-top: -5px;
   }
 
@@ -850,15 +876,15 @@ ul.tech-stack li {
     width: 50%;
     margin: 20px auto;
     z-index: 1;
-}
+  }
 
-.input-group textarea {
-  z-index: 1;
-}
+  .input-group textarea {
+    z-index: 1;
+  }
 
-.c-img img {
-  width: 470px;
-  position: relative;
-  left: 17px;
-}
+  .c-img img {
+    width: 470px;
+    position: relative;
+    left: 17px;
+  }
 }
