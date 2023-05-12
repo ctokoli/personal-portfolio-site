@@ -437,7 +437,6 @@ ul.tech-stack li {
   display: none;
 }
 
-
 /* Desktop View Media Quries ------------------- */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
@@ -545,7 +544,6 @@ ul.tech-stack li {
     font-size: 17px;
   }
 
-
   /* project grid section */
 
   .project-section {
@@ -607,14 +605,6 @@ ul.tech-stack li {
     background-size: 361px;
   }
 
-  /* .c-img {
-      background-image: url(images/image-geometry_2.svg);
-      background-repeat: no-repeat;
-      width: 540px;
-      height: 351px;
-      position: relative;
-  } */
-
   .form-desk-backround {
     background-image: url(images/image-geometry_6.png);
     background-repeat: no-repeat;
@@ -627,8 +617,6 @@ ul.tech-stack li {
     width: 40%;
     margin: 0 auto;
   }
-
-
 
   .get-started {
     margin-left: 0;
@@ -672,8 +660,6 @@ ul.tech-stack li {
     margin: 20px 0;
     justify-content: center;
   }
-
-
 
   ul.social-contents {
     margin: 20px 0;
