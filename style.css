@@ -535,14 +535,30 @@ ul.tech-stack li {
   }
 
   .a {
-    background-color: #FEB5F5;
      grid-area: header;
    
-    
   }
+
+  .a-img{
+    background-image: url(images/image_dots.svg);
+    background-repeat: no-repeat;
+    height: 129px;
+    width: 129px;
+    position: relative;
+    left: 410px;
+    top: -145px;
+  }
+
+  .headings.a h2 {
+    transform: rotate(-90deg);
+    position: relative;
+    right: 30px;
+    margin-top: 0px;
+    top: -32px;
+    font-weight: 100;
+}
   
   .b {
-    background-color: #76daff;
      grid-area: aside;
   }
   
@@ -598,6 +614,10 @@ ul.tech-stack li {
 .img4 img{
 height: 199px;
 }
+h2.project-name.top {
+  font-size: 35px;
+  font-weight: 700;
+}
 
 /* desktop about us section */
 section.about {
@@ -614,6 +634,43 @@ ul.grid {
 
 .grid-item {
   margin-top: 0;
+}
+
+.project-details.top {
+  margin-top: -240px;
+  position: relative;
+}
+
+.tech-details.top-details {
+  padding: 20px 10px 81px 48px;
+}
+
+h2.project-name.head {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+ul.tech-stack.tech li {
+  padding: 4px 15px;
+  font-size: 14px;
+}
+
+.details-button.btn button {
+  background: white;
+  color: black;
+  padding: 5px 23px;
+  align-items: center;
+  width: auto;
+}
+
+.union.white {
+  display: none;
+}
+
+.union.black{
+  background-image: url(images/Union_black.png);
+  position: relative;
+  top: 7px;
 }
 
 }
