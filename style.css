@@ -460,6 +460,13 @@ ul.tech-stack li {
     left: 63px;
   }
 
+  .dot-img1 img {
+    position: relative;
+    left: 566px;
+    top: 96px;
+    height: 166px;
+}
+
   .dot-img li {
     list-style-type: none;
   }
@@ -485,7 +492,7 @@ ul.tech-stack li {
 
   .content p {
     padding: 0 0;
-    margin-top: 10px;
+    margin-top: 20px;
     letter-spacing: normal;
   }
 
@@ -499,11 +506,19 @@ ul.tech-stack li {
 
   .button {
     width: 254px;
+    margin-top: 30px;
   }
 
   .mobile-header {
     display: none;
   }
+
+  dot-img1 img {
+    position: relative;
+    left: 568px;
+    top: 98px;
+    height: 168px;
+}
 
   .main-header {
     padding: 10px;
@@ -548,14 +563,14 @@ ul.tech-stack li {
 
   .project-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 0.9fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.37fr 0.1fr 0.2fr 0.8fr;
     grid-template-areas:
       "header aside aside aside"
       "sidebar sidebar main main"
       "cont cont main main"
       "footer footer-side footer-side footer-side";
-    margin-top: 92px;
+      margin-top: 220px;
   }
 
   .project {
@@ -572,12 +587,12 @@ ul.tech-stack li {
     height: 129px;
     width: 129px;
     position: relative;
-    left: 355px;
+    left: 342px;
     top: -145px;
   }
 
   .img2 img {
-    height: 330px;
+    height: 472px;
   }
 
   .get-started h2 {
@@ -599,10 +614,12 @@ ul.tech-stack li {
 
   .c {
     grid-area: sidebar;
-    background-image: url(images/image-geometry_2.svg);
+    display: flex;
+    flex-direction: row;
+    /* background-image: url(images/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-position: 100%;
-    background-size: 361px;
+    background-size: 361px; */
   }
 
   .form-desk-backround {
@@ -616,6 +633,7 @@ ul.tech-stack li {
   .from-desktop {
     width: 40%;
     margin: 0 auto;
+    margin-top: -212px;
   }
 
   .get-started {
@@ -640,6 +658,7 @@ ul.tech-stack li {
 
   .footer-desk {
     display: flex;
+    margin-top: -174px;
   }
 
   .footer-desk-backroung {
@@ -663,6 +682,7 @@ ul.tech-stack li {
 
   ul.social-contents {
     margin: 20px 0;
+    margin-left: 330px;
   }
 
   .input-flex {
@@ -693,15 +713,12 @@ ul.tech-stack li {
     margin-top: 32px;
   }
 
-  .d-img {
-    background-image: url(images/Group\ 83.png);
-    background-repeat: no-repeat;
-    height: 126px;
-    background-size: 228px;
+  .d-img img {
+    height: 178px;
     position: relative;
-    left: 214px;
-    margin-top: -6px;
-  }
+    left: 125px;
+    margin-top: -7px;
+}
 
   .laptop-img.img1 {
     margin-top: 50px;
@@ -709,13 +726,14 @@ ul.tech-stack li {
 
   .e {
     grid-area: cont;
-    margin-top: -7px;
+    margin-top: -14px;
+    display: flex;
+    flex-direction: row;
   }
 
-  .e-img {
-    background-image: url(images/Shape5.png);
-    width: 175px;
-    height: 175px;
+  .e-img img {
+    position: relative;
+    top: 295px;
   }
 
   .laptop-img.img2 {
@@ -729,7 +747,16 @@ ul.tech-stack li {
 
   .g {
     grid-area: footer-side;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1px;
   }
+
+  .g-img3 img {
+    position: relative;
+    left: 230px;
+    top: -1px;
+}
 
   /* resize project images */
 
@@ -740,7 +767,8 @@ ul.tech-stack li {
   .img3 img {
     height: 291px;
     position: relative;
-    left: 123px;
+    left: 230px;
+    top: -3px;
   }
 
   .img img {
@@ -749,7 +777,7 @@ ul.tech-stack li {
   }
 
   .img1 img {
-    height: 242px;
+    height: 280px;
   }
 
   .hide {
@@ -757,7 +785,7 @@ ul.tech-stack li {
   }
 
   .img4 img {
-    height: 264px;
+    height:  284px;
     margin-top: -5px;
   }
 
@@ -817,4 +845,20 @@ ul.tech-stack li {
     position: relative;
     top: 7px;
   }
+
+  button.input-form {
+    width: 50%;
+    margin: 20px auto;
+    z-index: 1;
+}
+
+.input-group textarea {
+  z-index: 1;
+}
+
+.c-img img {
+  width: 470px;
+  position: relative;
+  left: 17px;
+}
 }
