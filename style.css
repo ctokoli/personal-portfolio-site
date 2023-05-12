@@ -522,7 +522,7 @@ ul.tech-stack li {
   .project-section{
     display: grid;
     grid-template-columns: 1fr 1fr 0.6fr;
-    grid-template-rows: 0.37fr 0.1fr 0.9fr 0.8fr;
+    grid-template-rows: 0.37fr 0.1fr 0.2fr 0.8fr;
     grid-template-areas:
     "header aside aside aside"
     "sidebar sidebar main main"
@@ -553,8 +553,13 @@ ul.tech-stack li {
   
   .d {
     background-color: #E8F387;
-    grid-area: main
-  }
+    grid-area: main;
+    display: flex;
+    flex-direction: column-reverse;
+    place-content: flex-end;
+    margin-top: 42px;
+}
+  
   
   .e {
     background-color: red;
@@ -573,8 +578,42 @@ ul.tech-stack li {
   }
 
   /* resize project images */
+
+  .laptop-img img {
+    width: auto;
+}
   .img img {
     height: 413px;
-    
+    width: 100%;
 }
+
+.img1 img {
+  height: 242px;
+}
+
+.hide{
+  display: none;
+}
+
+.img4 img{
+height: 199px;
+}
+
+/* desktop about us section */
+section.about {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+ul.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  margin-top: 0;
+}
+
 }
