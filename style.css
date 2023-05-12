@@ -580,6 +580,68 @@ ul.tech-stack li {
       position: relative;
   } */
 
+  .form-desk-backround{
+    background-image: url(images/image-geometry_6.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 350px;
+    width: 263px;
+  }
+  .from-desktop {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.get-started h2 {
+  font-size: 5em;
+  text-align: center;
+}
+
+.get-started{
+  margin-left: 0px;
+}
+
+.get-started p {
+  margin-left: 18px;
+}
+
+.form-view input {
+  width: 224px;
+}
+
+.get-started p {
+  margin-left: 17px;
+  letter-spacing: 0;
+}
+
+section.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.get-cv {
+  display: flex;
+   margin: 20px 0; 
+  justify-content: center;
+}
+
+.social-contents li {
+  padding: 0px;
+}
+
+.social-contents li  a{
+  padding: 0px 20px;
+}
+
+ul.social-contents {
+  margin: 20px 0;
+}
+
+.input-flex {
+  display: flex;
+}
+
   .content.desk {
     width: 130%;
     margin-left: 20px;
@@ -590,6 +652,10 @@ ul.tech-stack li {
     width: 289px;
     height: 289px;
     padding: 6px;
+}
+
+.about-text{
+  margin-left: 14px;
 }
   
   .d {
