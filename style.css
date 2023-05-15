@@ -55,6 +55,10 @@ body {
   display: none;
 }
 
+.dot-img1 img {
+  display: none;
+}
+
 .headings {
   font-size: 50px;
   line-height: 1.2;
