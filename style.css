@@ -494,6 +494,10 @@ ul.tech-stack li {
     display: block;
   }
 
+  .dot-img1 img {
+    display: block;
+  }
+
   .dot-img {
     background-image: url(images/image_dots_with_teal.svg);
     background-repeat: no-repeat;
