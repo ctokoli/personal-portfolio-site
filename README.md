@@ -121,6 +121,16 @@ You can deploy this project using: GitHub Pages,
 - I used GitHub Pages to deploy my website.
 - For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Here is the link to the live experience](https://ctokoli.github.io/personal-portfolio-site/).
+
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./images/mobile.png) | ![Screenshot2](./images/desktop.png) |
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👤 Author <a name="author"></a>
