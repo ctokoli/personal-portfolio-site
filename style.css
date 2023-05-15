@@ -484,6 +484,7 @@ ul.tech-stack li {
   }
 
   .dot-img1 img {
+    display: block;
     position: relative;
     left: 566px;
     top: 96px;
