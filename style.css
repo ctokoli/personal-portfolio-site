@@ -41,7 +41,7 @@ body {
   background-blend-mode: normal, overlay, normal;
 }
 
-#mobile-menu {
+/* #mobile-menu {
   display: flex;
   height: 78px;
   align-items: center;
@@ -49,6 +49,23 @@ body {
   background: url(images/ic_menu.png);
   background-repeat: no-repeat;
   margin: 10px;
+} */
+
+.humburger{
+  display: block;
+  cursor: pointer;
+  margin: 25px
+  
+}
+
+.bar{
+  display: block;
+  background-color: #000;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 
 .main-header {
