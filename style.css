@@ -75,7 +75,7 @@ body {
   transform: translateY(8px) rotate(45deg);
 }
 
-.humburger.active .bar:nth-child(1){
+.humburger.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
 }
 
@@ -85,8 +85,8 @@ body {
   width: 30px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3 ease-in-out;
-  transition: all 0.3 ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .mobile-menu-background img{
@@ -117,6 +117,7 @@ body {
   top: -16px;
   left: -100%;
   z-index: 10;
+  transition: 0.3s;
 }
 
 .mobile-menu.active{
