@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
     <title>Personal Portfolio Website</title>
 </head>
 <body>
@@ -15,29 +16,43 @@
         <nav>
             <div id="header">
                 <div class="mobile-header">
-                     <div id="primary-logo">
-                         <div id="mobile-logo">
-                         </div>
-                         <div id="logo"></div>
-                     </div>
-                     <div id="mobile-menu">
-                       
-                     </div>
-                 </div>
-        </nav>
-        <nav>
-                 <div class="main-header">
-                     <div class="main-menu">
-                         <ul>
-                             <li><a href="#"> Home</a></li>
-                             <li><a href="#">Portfolio</a></li>
-                             <li><a href="#">About</a></li>
-                             <li><a href="#">Contact</a></li>
-                         </ul>
-                     </div>
-                 </div>
+                    <div class="mobile-menu">
+                        <div class="mobile-menu-logo">
+                            <img src="images/Group 98.png" alt="mobile-menu-logo"/>
+                        </div>
+                        <ul class="nav-menu">
+                            <li class="nav-item"><a href="#home" class="nav-link"> Home</a></li>
+                            <li class="nav-item"><a href="#projects" class="nav-link">Portfolio</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                        </ul> 
+                        <div class="mobile-menu-background">
+                            <img src="images/image_geometry_menu_2.png" alt="mobile-menu-background" />
+                        </div>
+                    </div>
+                    <div id="primary-logo">
+                        <div id="mobile-logo"></div>
+                        <div id="logo"></div>
+                    </div>
+                    <div class="humburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
-             </div>
+            </div>
+        </nav>
+        <nav id="home">
+            <div class="main-header">
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#home"> Home</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <section>
@@ -67,7 +82,7 @@
     </section>
 
      <!--begining of project section -->
-   <section class="grid-container">
+   <section id="projects" class="grid-container">
             <section class="project-section">
                 <div class="headings a">
                     <h2 >Projects</h2>
@@ -219,7 +234,7 @@
   <!-- end of project section -->
 
    <!-- begining of about section -->
-   <section class="about">
+   <section id="about" class="about">
     <div class="about-text">
         <h2 class="headings">About</h2>
         <div class="content desk">
@@ -266,7 +281,7 @@
    <!-- end of about section -->
  
    <!-- begining of contact form section -->
-   <section class="form-section">
+   <section id="contact" class="form-section">
         <div class="form-background hide"></div>
         <div class="form-desk-backround "></div>
 
@@ -333,6 +348,6 @@
     </ul>
    </section>
    <!-- end of footer section -->
-
+   <script src="script.js"></script>
 </body>
 </html>
