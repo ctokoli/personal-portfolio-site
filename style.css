@@ -64,7 +64,7 @@ body {
   top: 16px;
 }
 .mobile-menu-logo img{
-  width: 100%;
+  width: 110%;
 }
 
 .humburger.active .bar:nth-child(2){
@@ -96,6 +96,7 @@ body {
 .nav-menu{
   text-align: center;
   padding: 0;
+  margin: 45px;
 }
 
 .nav-item {
