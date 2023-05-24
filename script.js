@@ -62,15 +62,20 @@ fetch("projects.json")
 
     let projectCSection = document.querySelector('.imgc');
     projectCSection.insertAdjacentHTML('afterend', '<div class="c-img"><img src="images/image-geometry_2.svg" alt="laptop"></div>');
-    console.log(projectCSection);
-
+    
     let projectESection = document.querySelector('.imge');
     projectESection.insertAdjacentHTML('afterend', '<div class="e-img"><img src="images/Shape5.png" alt="laptop"></div>');
-    console.log(projectESection);
-
+    
     let projectDSection = document.querySelector('.d');
     projectDSection.insertAdjacentHTML('afterbegin', '<div class="d-img"><img src="images/Group 83.png" alt="laptop"></div>');
-    console.log(projectDSection);
+
+    let projectGSection = document.querySelector('.g');
+    projectGSection.insertAdjacentHTML('afterbegin', '<div class="g-img3"><img src="images/image-geometry_4.svg" alt="laptop"></div>');
+
+    let projectFSection = document.querySelector('.f');
+    projectFSection.insertAdjacentHTML('afterbegin', ' <img src="images/image-geometry_5.svg" class="show" alt="laptop">');
+    
+    
 
 
 

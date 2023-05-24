@@ -925,7 +925,7 @@ ul.tech-stack li {
     height: 178px;
     position: relative;
     left: 125px;
-    margin-top: -7px;
+    margin-top: -6px;
   }
 
   .laptop-img.imgc {
@@ -979,9 +979,13 @@ ul.tech-stack li {
   .imgg img {
     height: 291px;
     position: relative;
-    left: 316px;
+    left: 229px;
     top: -1px;
   }
+
+  .show {
+    display: block;
+}
 
   .imgb img {
     height: 413px;
