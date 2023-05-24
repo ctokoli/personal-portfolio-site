@@ -1,6 +1,5 @@
 const hamburger = document.querySelector('.humburger');
 const mobileMenu = document.querySelector('.mobile-menu');
-const projectButton = document.querySelector('.project-pop');
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
 
@@ -10,21 +9,16 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav-link')
-.forEach((element) => element.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  mobileMenu.classList.remove('active');
-}));
+  .forEach((element) => element.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    mobileMenu.classList.remove('active');
+  }));
 
-
-
-fetch("projects.json")
-.then(function(response) {
-    return response.json();
-    
-})
-.then(function(projects){
-    let placeholder = document.querySelector('.project-section');
-    let result = "";
+fetch('projects.json')
+  .then((response) => response.json())
+  .then((projects) => {
+    const placeholder = document.querySelector('.project-section');
+    let result = '';
     // inserting the header text for the project
     result += `
         <div class="headings a">
@@ -32,8 +26,8 @@ fetch("projects.json")
         <div class="a-img"></div>
         </div>
     `;
-    for(project of projects){
-        result += `
+    projects.forEach((project) => {
+      result += `
         <div class="project ${project.grid}">
             <div class="laptop-img img${project.grid}">
                 <img src="${project.featured_image}" alt="laptop">
@@ -56,41 +50,31 @@ fetch("projects.json")
                 </div>
             </div>
         </div>
-        `;  
-    }
+        `;
+    });
     placeholder.innerHTML = result;
 
-    let projectCSection = document.querySelector('.imgc');
+    const projectCSection = document.querySelector('.imgc');
     projectCSection.insertAdjacentHTML('afterend', '<div class="c-img"><img src="images/image-geometry_2.svg" alt="laptop"></div>');
-    
-    let projectESection = document.querySelector('.imge');
+
+    const projectESection = document.querySelector('.imge');
     projectESection.insertAdjacentHTML('afterend', '<div class="e-img"><img src="images/Shape5.png" alt="laptop"></div>');
-    
-    let projectDSection = document.querySelector('.d');
+
+    const projectDSection = document.querySelector('.d');
     projectDSection.insertAdjacentHTML('afterbegin', '<div class="d-img"><img src="images/Group 83.png" alt="laptop"></div>');
 
-    let projectGSection = document.querySelector('.g');
+    const projectGSection = document.querySelector('.g');
     projectGSection.insertAdjacentHTML('afterbegin', '<div class="g-img3"><img src="images/image-geometry_4.svg" alt="laptop"></div>');
 
-    let projectFSection = document.querySelector('.f');
+    const projectFSection = document.querySelector('.f');
     projectFSection.insertAdjacentHTML('afterbegin', ' <img src="images/image-geometry_5.svg" class="show" alt="laptop">');
-    
-    
 
+    document.querySelectorAll('.project-pop')
+      .forEach((element) => element.addEventListener('click', () => {
+        popUp.classList.add('pop-active');
+      }));
 
-
-
-
-document.querySelectorAll('.project-pop')
-    .forEach((element) => element.addEventListener('click', () => {
-    popUp.classList.add('pop-active');
-}));
-
-closeButton.addEventListener('click', () => {
-  popUp.classList.remove('pop-active');
-});
-});
-
-
-
-
+    closeButton.addEventListener('click', () => {
+      popUp.classList.remove('pop-active');
+    });
+  });
