@@ -41,16 +41,6 @@ body {
   background-blend-mode: normal, overlay, normal;
 }
 
-/* #mobile-menu {
-  display: flex;
-  height: 78px;
-  align-items: center;
-  width: 20px;
-  background: url(images/ic_menu.png);
-  background-repeat: no-repeat;
-  margin: 10px;
-} */
-
 .humburger {
   display: block;
   cursor: pointer;
@@ -128,6 +118,7 @@ body {
 
 .pop-up-container {
   height: 100vh;
+  width: 100%;
   overflow: scroll;
   background: rgba(26, 34, 54, 0.95);
   backdrop-filter: blur(12px);
@@ -139,7 +130,6 @@ body {
 
 .pop-up {
   background-color: #fff;
-  margin: 10px;
 }
 
 .pop-close {
@@ -770,6 +760,58 @@ ul.tech-stack li {
     color: #e2505c;
     font-size: 17px;
   }
+
+  /* pop up section */
+  .pop-up {
+    background-color: #fff;
+    margin: 60px;
+}
+
+.pop-image {
+  margin: 40px 60px;
+}
+
+.pop-close {
+  position: relative;
+  top: 36px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.pop-tech-stack {
+  margin-left: 44px;
+}
+
+.pop-headings {
+  margin-left: 64px;
+}
+
+.pop-headings h2 {
+  font-size: 60px;
+}
+
+.pop-tech li {
+  padding: 5px 16px;
+  font-size: 20px;
+}
+
+.pop-up-content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.pop-button {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+}
+
+.pop-button button {
+  padding: 10px 69px;
+  display: flex;
+  align-items: center;
+}
+
 
   /* project grid section */
 
