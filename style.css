@@ -211,16 +211,35 @@ body {
 }
 
 .pop-button {
+  width: 250px;
   display: flex;
   flex-direction: column;
-  margin: 10px 40px;
+  margin: 0 auto;
 }
 
 .pop-button button {
+  width: 247px;
   padding: 15px;
   margin-bottom: 30px;
   background-color: transparent;
   border: 1px solid #1a2236;
+}
+
+.pop-icon{
+  background-image: url(images/ic_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+.pop-icon1{
+  background-image: url(images/github_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+button span {
+  font-size: 18px;
+  font-family: Poppins;
 }
 
 .main-header {
@@ -629,6 +648,10 @@ ul.tech-stack li {
   display: none;
 }
 
+.pagination {
+  display: none;
+}
+
 /* Desktop View Media Quries ------------------- */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
@@ -841,10 +864,6 @@ ul.tech-stack li {
 }
 
 .pop-icon1:hover{
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 27px;
-  font-family: 'Poppins',serif;
   background-color: #000;
   color: #fff;
   background-image: url(images/ic_github.svg);
@@ -855,22 +874,29 @@ ul.tech-stack li {
 .arrow-left {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .arrow-right {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .arrow-left img {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .arrow-right img {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .pagination {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: 'Poppins';
   display: flex;
   align-items: center;
   justify-content: space-between;
