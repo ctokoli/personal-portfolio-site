@@ -82,25 +82,19 @@ fetch('projects.json')
     });
   });
 
-   function getData(featuredImage, live, source) {
-    console.log(live)
-    let link= '';
-    let result = '';
-    
-      result += `
+// eslint-disable-next-line no-unused-vars
+function getData(featuredImage, live, source) {
+  let link = '';
+  let result = '';
+
+  result += `
        <img src="${featuredImage}" alt="project details image" />
       `;
-      link += `
+  link += `
         <a href="${live}" target="_blank"><button class="pop-icon"><span>See live</span></button></a>
         <a href="${source}" target="_blank"><button class="pop-icon1"><span>See source</span></button></a>
       `;
-    
 
-      popUpImage.innerHTML = result;
-      return linkLive.innerHTML = link;
-  }
-document.querySelectorAll('.nav-link').forEach((element) => element.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  mobileMenu.classList.remove('active');
-}));
-
+  popUpImage.innerHTML = result;
+  linkLive.innerHTML = link;
+}
