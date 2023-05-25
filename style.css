@@ -841,11 +841,41 @@ ul.tech-stack li {
 }
 
 .pop-icon1:hover{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: 'Poppins',serif;
   background-color: #000;
   color: #fff;
   background-image: url(images/ic_github.svg);
   background-repeat: no-repeat;
   background-position: 90%;
+}
+
+.arrow-left {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-right {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-left img {
+  margin-right: 20px;
+}
+
+.arrow-right img {
+  margin-left: 20px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px;
+  padding: 74px 0px;
 }
 
 
