@@ -654,7 +654,7 @@ ul.tech-stack li {
   display: none;
 }
 
-/* Desktop View Media Quries ------------------- */
+/* Desktop View Media Quries ----------------------- */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
     display: none;
