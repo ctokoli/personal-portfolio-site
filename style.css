@@ -830,6 +830,11 @@ ul.tech-stack li {
   background-position: 90%;
 }
 
+.pop-button a {
+  text-decoration: none;
+}
+
+
 
   /* project grid section */
 

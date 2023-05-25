@@ -6,7 +6,7 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop.png",
     "background_image": "",
-    "link_to_live" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
     "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",
@@ -23,8 +23,8 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop1.png",
     "background_image": "",
-    "link-to-live" : "https://github.com/ctokoli/personal-portfolio-site",
-    "link-to-source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",
       "stack2": "Ruby on Rails",
@@ -40,7 +40,7 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop4.png",
     "background_image": "",
-    "link_to_live" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
     "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",
@@ -57,7 +57,7 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop2.png",
     "background_image": "",
-    "link_to_live" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
     "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",
@@ -74,7 +74,7 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop4.png",
     "background_image": "",
-    "link_to_live" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
     "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",
@@ -91,7 +91,7 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     "featured_image": "images/laptop3.png",
     "background_image": "",
-    "link_to_live" : "https://github.com/ctokoli/personal-portfolio-site",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
     "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
     "technologies":{
       "stack1": "HTML/CSS",

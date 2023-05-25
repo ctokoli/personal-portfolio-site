@@ -3,6 +3,7 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
 const popUpImage = document.querySelector('.pop-image');
+const linkLive = document.querySelector('.pop-button');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -42,7 +43,7 @@ fetch('projects.json')
                         <li>${project.technologies.stack3}</li>
                     </ul>
                     <div class="details-button btn">
-                        <button class="project-pop" onclick="getData('${project.featured_image}')">
+                        <button class="project-pop" onclick="getData('${project.featured_image}','${project.link_to_live}', '${project.link_to_source}')">
                             See this project
                             <div class="union white"></div>
                             <div class="union black"></div>
@@ -80,12 +81,20 @@ fetch('projects.json')
     });
   });
 
-   function getData(featuredImage) {
-    let result = "";
-    if(featuredImage){
+   function getData(featuredImage, live, source) {
+    console.log(live)
+    let link= '';
+    let result = '';
+    
       result += `
        <img src="${featuredImage}" alt="project details image" />
-      `
-    }
-    return popUpImage.innerHTML = result;
+      `;
+      link += `
+        <a href="${live}" target="_blank"><button class="pop-icon"><span>See live</span></button></a>
+        <a href="${source}" target="_blank"><button class="pop-icon1"><span>See source</span></button></a>
+      `;
+    
+
+      popUpImage.innerHTML = result;
+      return linkLive.innerHTML = link;
   }
