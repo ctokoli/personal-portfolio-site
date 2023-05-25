@@ -834,7 +834,19 @@ ul.tech-stack li {
   text-decoration: none;
 }
 
+.pop-icon1{
+  background-image: url(images/github_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
 
+.pop-icon1:hover{
+  background-color: #000;
+  color: #fff;
+  background-image: url(images/ic_github.svg);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
 
   /* project grid section */
 
