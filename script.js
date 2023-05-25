@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('.humburger');
 const mobileMenu = document.querySelector('.mobile-menu');
+
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
 const popUpImage = document.querySelector('.pop-image');
@@ -98,3 +99,8 @@ fetch('projects.json')
       popUpImage.innerHTML = result;
       return linkLive.innerHTML = link;
   }
+document.querySelectorAll('.nav-link').forEach((element) => element.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  mobileMenu.classList.remove('active');
+}));
+
