@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.humburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
+const popUpImage = document.querySelector('.pop-image');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -41,7 +42,7 @@ fetch('projects.json')
                         <li>${project.technologies.stack3}</li>
                     </ul>
                     <div class="details-button btn">
-                        <button class="project-pop">
+                        <button class="project-pop" onclick="getData('${project.featured_image}')">
                             See this project
                             <div class="union white"></div>
                             <div class="union black"></div>
@@ -78,3 +79,13 @@ fetch('projects.json')
       popUp.classList.remove('pop-active');
     });
   });
+
+   function getData(featuredImage) {
+    let result = "";
+    if(featuredImage){
+      result += `
+       <img src="${featuredImage}" alt="project details image" />
+      `
+    }
+    return popUpImage.innerHTML = result;
+  }

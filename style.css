@@ -807,9 +807,27 @@ ul.tech-stack li {
 }
 
 .pop-button button {
-  padding: 10px 69px;
+  width: 246px;
   display: flex;
   align-items: center;
+  margin-right: 30px;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pop-icon{
+  background-image: url(images/ic_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+.pop-icon:hover{
+  background-color: #000;
+  color: #fff;
+  background-image: url(images/ic_link_white.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
 }
 
 
