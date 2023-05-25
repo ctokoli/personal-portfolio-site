@@ -227,13 +227,13 @@ body {
   border: 1px solid #1a2236;
 }
 
-.pop-icon{
+.pop-icon {
   background-image: url(images/ic_link.png);
   background-repeat: no-repeat;
   background-position: 90%;
 }
 
-.pop-icon1{
+.pop-icon1 {
   background-image: url(images/github_link.png);
   background-repeat: no-repeat;
   background-position: 90%;
@@ -241,7 +241,7 @@ body {
 
 button span {
   font-size: 18px;
-  font-family: Poppins;
+  font-family: Poppins, serif;
 }
 
 .main-header {
@@ -747,6 +747,10 @@ ul.tech-stack li {
     display: none;
   }
 
+  .pop-button a {
+    text-decoration: none;
+  }
+
   .main-header {
     padding: 10px;
     display: block;
@@ -760,6 +764,11 @@ ul.tech-stack li {
 
   .social-contents li a {
     padding: 0 20px;
+  }
+
+  .pop-tech li {
+    padding: 5px 16px;
+    font-size: 20px;
   }
 
   .main-menu ul li {
@@ -790,121 +799,111 @@ ul.tech-stack li {
   .pop-up {
     background-color: #fff;
     margin: 60px;
-}
+  }
 
-.pop-image {
-  margin: 40px 60px;
-}
+  .pop-image {
+    margin: 40px 60px;
+  }
 
-.pop-close {
-  position: relative;
-  top: 36px;
-  right: 30px;
-  cursor: pointer;
-}
+  .pop-close {
+    position: relative;
+    top: 36px;
+    right: 30px;
+    cursor: pointer;
+  }
 
-.pop-tech-stack {
-  margin-left: 44px;
-}
+  .pop-tech-stack {
+    margin-left: 44px;
+  }
 
-.pop-headings {
-  margin-left: 64px;
-}
+  .pop-headings {
+    margin-left: 64px;
+  }
 
-.pop-headings h2 {
-  font-size: 60px;
-}
+  .pop-headings h2 {
+    font-size: 60px;
+  }
 
-.pop-tech li {
-  padding: 5px 16px;
-  font-size: 20px;
-}
+  .pop-up-content {
+    width: 700px;
+    margin: 0 auto;
+  }
 
-.pop-up-content {
-  width: 700px;
-  margin: 0 auto;
-}
+  .pop-button {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+  }
 
-.pop-button {
-  display: flex;
-  flex-direction: row;
-  margin: 0 20px;
-}
+  .pop-button button {
+    width: 246px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+  }
 
-.pop-button button {
-  width: 246px;
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-  font-size: 19px;
-  font-weight: 500;
-  cursor: pointer;
-}
+  .pop-icon {
+    background-image: url(images/ic_link.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
 
-.pop-icon{
-  background-image: url(images/ic_link.png);
-  background-repeat: no-repeat;
-  background-position: 90%;
-}
+  .pop-icon:hover {
+    background-color: #000;
+    color: #fff;
+    background-image: url(images/ic_link_white.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
 
-.pop-icon:hover{
-  background-color: #000;
-  color: #fff;
-  background-image: url(images/ic_link_white.png);
-  background-repeat: no-repeat;
-  background-position: 90%;
-}
+  .pop-icon1 {
+    background-image: url(images/github_link.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
 
-.pop-button a {
-  text-decoration: none;
-}
+  .pop-icon1:hover {
+    background-color: #000;
+    color: #fff;
+    background-image: url(images/ic_github.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
 
-.pop-icon1{
-  background-image: url(images/github_link.png);
-  background-repeat: no-repeat;
-  background-position: 90%;
-}
+  .arrow-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.pop-icon1:hover{
-  background-color: #000;
-  color: #fff;
-  background-image: url(images/ic_github.svg);
-  background-repeat: no-repeat;
-  background-position: 90%;
-}
+  .arrow-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.arrow-left {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
+  .arrow-left img {
+    margin-right: 25px;
+  }
 
-.arrow-right {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
+  .arrow-right img {
+    margin-left: 25px;
+  }
 
-.arrow-left img {
-  margin-right: 25px;
-}
-
-.arrow-right img {
-  margin-left: 25px;
-}
-
-.pagination {
-  display: block;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 27px;
-  font-family: 'Poppins';
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 10px 20px;
-  padding: 74px 0px;
-}
+  .pagination {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: 'Poppins', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 74px 0;
+  }
 
 
 
