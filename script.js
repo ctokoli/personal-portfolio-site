@@ -112,7 +112,7 @@ function validForm(e) {
     form.submit();
     return true;
   }
-  errorMsg.innerHTML = 'please email is invalid';
+  errorMsg.innerHTML = 'please use lowercase for the email';
   return false;
 }
 

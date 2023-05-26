@@ -518,6 +518,13 @@ li.grid-item {
   color: #7d7c84;
 }
 
+p.msg {
+  position: relative;
+  left: 21px;
+  top: 10px;
+  color: red;
+}
+
 .input-form {
   height: 50px;
   font-family: 'Poppins', serif;
