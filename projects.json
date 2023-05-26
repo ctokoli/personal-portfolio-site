@@ -1,0 +1,105 @@
+
+[
+  {
+    "id" : 1,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "b",
+    "project_details": "top",
+    "tech_details": "top-details"
+  },
+  {
+    "id" : 2,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop1.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "c",
+    "project_details": "hide",
+    "tech_details": ""
+  },
+  {
+    "id" : 3,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop4.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "d",
+    "project_details": "",
+    "tech_details": ""
+  },
+  {
+    "id" : 4,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop2.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "e",
+    "project_details": "hide",
+    "tech_details": ""
+  },
+  {
+    "id" : 5,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop4.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "f",
+    "project_details": "hide",
+    "tech_details": ""
+  },
+  {
+    "id" : 6,
+    "name": "Project name goes here",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "featured_image": "images/laptop3.png",
+    "background_image": "",
+    "link_to_live" : "https://ctokoli.github.io/personal-portfolio-site",
+    "link_to_source" : "https://github.com/ctokoli/personal-portfolio-site",
+    "technologies":{
+      "stack1": "HTML/CSS",
+      "stack2": "Ruby on Rails",
+      "stack3": "JavaScript"
+    },
+    "grid": "g",
+    "project_details": "hide",
+    "tech_details": ""
+  }
+]

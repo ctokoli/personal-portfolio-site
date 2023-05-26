@@ -93,7 +93,7 @@ body {
 
 .nav-item {
   list-style: none;
-  padding: 17.3px;
+  padding: 17px;
 }
 
 .nav-item a {
@@ -116,6 +116,132 @@ body {
 
 .mobile-menu.active {
   left: 0;
+}
+
+.pop-up-container {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  background: rgba(26, 34, 54, 0.95);
+  backdrop-filter: blur(12px);
+  position: fixed;
+  z-index: 12;
+  top: 0;
+  right: 100%;
+}
+
+.pop-up {
+  background-color: #fff;
+}
+
+.pop-close {
+  position: relative;
+  top: 30px;
+  right: 13px;
+  cursor: pointer;
+}
+
+.pop-up-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pop-up-container.pop-active {
+  right: 0;
+}
+
+.close:nth-child(2) {
+  opacity: 0;
+}
+
+.close:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.close:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.pop-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pop-content p {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
+}
+
+.pop-headings {
+  margin-left: 20px;
+}
+
+.pop-headings h2 {
+  font-size: 1.4em;
+  font-weight: 700;
+  font-family: 'Poppins', serif;
+  color: #1a2236;
+}
+
+.pop-image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pop-image img {
+  width: 100%;
+}
+
+.pop-tech li {
+  list-style: none;
+  margin-right: 10px;
+  border: 1px solid #000;
+  padding: 2px 5px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.pop-tech {
+  display: flex;
+  padding-left: 20px;
+}
+
+.pop-button {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.pop-button button {
+  width: 247px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: 1px solid #1a2236;
+}
+
+.pop-icon {
+  background-image: url(images/ic_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+.pop-icon1 {
+  background-image: url(images/github_link.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+button span {
+  font-size: 18px;
+  font-family: Poppins, serif;
 }
 
 .main-header {
@@ -524,7 +650,11 @@ ul.tech-stack li {
   display: none;
 }
 
-/* Desktop View Media Quries ------------------- */
+.pagination {
+  display: none;
+}
+
+/* Desktop View Media Quries ----------------------- */
 @media only screen and (min-width: 768px) {
   .geometry-image2 {
     display: none;
@@ -617,6 +747,10 @@ ul.tech-stack li {
     display: none;
   }
 
+  .pop-button a {
+    text-decoration: none;
+  }
+
   .main-header {
     padding: 10px;
     display: block;
@@ -630,6 +764,11 @@ ul.tech-stack li {
 
   .social-contents li a {
     padding: 0 20px;
+  }
+
+  .pop-tech li {
+    padding: 5px 16px;
+    font-size: 20px;
   }
 
   .main-menu ul li {
@@ -654,6 +793,116 @@ ul.tech-stack li {
     transform: scale(2);
     color: #e2505c;
     font-size: 17px;
+  }
+
+  /* pop up section */
+  .pop-up {
+    background-color: #fff;
+    margin: 60px;
+  }
+
+  .pop-image {
+    margin: 40px 60px;
+  }
+
+  .pop-close {
+    position: relative;
+    top: 36px;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .pop-tech-stack {
+    margin-left: 44px;
+  }
+
+  .pop-headings {
+    margin-left: 64px;
+  }
+
+  .pop-headings h2 {
+    font-size: 60px;
+  }
+
+  .pop-up-content {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .pop-button {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+  }
+
+  .pop-button button {
+    width: 246px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .pop-icon {
+    background-image: url(images/ic_link.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
+
+  .pop-icon:hover {
+    background-color: #000;
+    color: #fff;
+    background-image: url(images/ic_link_white.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
+
+  .pop-icon1 {
+    background-image: url(images/github_link.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
+
+  .pop-icon1:hover {
+    background-color: #000;
+    color: #fff;
+    background-image: url(images/ic_github.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+  }
+
+  .arrow-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .arrow-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .arrow-left img {
+    margin-right: 25px;
+  }
+
+  .arrow-right img {
+    margin-left: 25px;
+  }
+
+  .pagination {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: 'Poppins', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 74px 0;
   }
 
   /* project grid section */
@@ -688,8 +937,8 @@ ul.tech-stack li {
     top: -145px;
   }
 
-  .img2 img {
-    height: 472px;
+  .imge img {
+    height: 466px;
   }
 
   .get-started h2 {
@@ -713,11 +962,6 @@ ul.tech-stack li {
     grid-area: sidebar;
     display: flex;
     flex-direction: row;
-
-    /* background-image: url(images/image-geometry_2.svg);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: 361px; */
   }
 
   .form-desk-backround {
@@ -815,11 +1059,19 @@ ul.tech-stack li {
     height: 178px;
     position: relative;
     left: 125px;
-    margin-top: -7px;
+    margin-top: -6px;
   }
 
-  .laptop-img.img1 {
+  .laptop-img.imgc {
     margin-top: 50px;
+  }
+
+  .imgf img {
+    display: none;
+  }
+
+  .laptop-img img {
+    width: auto;
   }
 
   .e {
@@ -831,10 +1083,10 @@ ul.tech-stack li {
 
   .e-img img {
     position: relative;
-    top: 295px;
+    top: 289px;
   }
 
-  .laptop-img.img2 {
+  .laptop-img.imge {
     display: flex;
     align-items: flex-end;
   }
@@ -858,23 +1110,23 @@ ul.tech-stack li {
 
   /* resize project images */
 
-  .laptop-img img {
-    width: auto;
-  }
-
-  .img3 img {
+  .imgg img {
     height: 291px;
     position: relative;
-    left: 230px;
-    top: -3px;
+    left: 229px;
+    top: -1px;
   }
 
-  .img img {
+  .show {
+    display: block;
+  }
+
+  .imgb img {
     height: 413px;
     width: 100%;
   }
 
-  .img1 img {
+  .imgc img {
     height: 280px;
   }
 
@@ -882,7 +1134,7 @@ ul.tech-stack li {
     display: none;
   }
 
-  .img4 img {
+  .imgd img {
     height: 284px;
     margin-top: -5px;
   }
@@ -915,7 +1167,7 @@ ul.tech-stack li {
     padding: 20px 10px 81px 48px;
   }
 
-  h2.project-name.head {
+  .tech-details.top-details h2 {
     font-size: 40px;
     font-weight: 500;
   }
@@ -957,6 +1209,6 @@ ul.tech-stack li {
   .c-img img {
     width: 470px;
     position: relative;
-    left: 17px;
+    left: 10px;
   }
 }
