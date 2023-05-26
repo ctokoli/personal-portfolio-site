@@ -104,12 +104,14 @@ function getData(featuredImage, live, source) {
 // form validation
 
 document.querySelector('.form-view').addEventListener('submit', validForm);
+let form = document.querySelector('.form-view');
 
 function validForm(e) {
   e.preventDefault();
   const regex = /[a-z]/;
   if(emailValue.value.match(regex)){
    console.log('working');
+   form.submit();
    return true;
   }else {
    console.log('error');
