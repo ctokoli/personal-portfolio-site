@@ -1,10 +1,11 @@
 const hamburger = document.querySelector('.humburger');
 const mobileMenu = document.querySelector('.mobile-menu');
-
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
 const popUpImage = document.querySelector('.pop-image');
 const linkLive = document.querySelector('.pop-button');
+const errorMsg = document.querySelector('.msg');
+const emailValue = document.querySelector('.emailValue');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -98,3 +99,21 @@ function getData(featuredImage, live, source) {
   popUpImage.innerHTML = result;
   linkLive.innerHTML = link;
 }
+
+
+// form validation
+
+document.querySelector('.form-view').addEventListener('submit', validForm);
+
+function validForm(e) {
+  e.preventDefault();
+  const regex = /[a-z]/;
+  if(emailValue.value.match(regex)){
+   console.log('working');
+   return true;
+  }else {
+   console.log('error');
+   errorMsg.innerHTML = "please email is invalid";
+   return false;
+  }
+};
