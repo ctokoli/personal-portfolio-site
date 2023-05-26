@@ -1,10 +1,11 @@
 const hamburger = document.querySelector('.humburger');
 const mobileMenu = document.querySelector('.mobile-menu');
-
 const popUp = document.querySelector('.pop-up-container');
 const closeButton = document.querySelector('.pop-close');
 const popUpImage = document.querySelector('.pop-image');
 const linkLive = document.querySelector('.pop-button');
+const errorMsg = document.querySelector('.msg');
+const emailValue = document.querySelector('.emailValue');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -98,3 +99,19 @@ function getData(featuredImage, live, source) {
   popUpImage.innerHTML = result;
   linkLive.innerHTML = link;
 }
+
+// form validation
+const form = document.querySelector('.form-view');
+
+function validForm(e) {
+  e.preventDefault();
+  const regex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  if (emailValue.value.match(regex)) {
+    form.submit();
+    return true;
+  }
+  errorMsg.innerHTML = 'please use lowercase for the email';
+  return false;
+}
+
+document.querySelector('.form-view').addEventListener('submit', validForm);
