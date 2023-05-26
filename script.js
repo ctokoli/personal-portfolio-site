@@ -132,7 +132,9 @@ document.querySelector('.form-view').addEventListener('submit', storeData);
 function loadData() {
   const userData = JSON.parse(localStorage.getItem('formdata') || '[]');
   if (userData !== 'undefined' || userData !== null) {
-    
+    nameValue.value = userData.name;
+    emailValue.value = userData.email;
+    msgValue.value = userData.message; 
   }
 }
 
