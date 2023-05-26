@@ -107,7 +107,7 @@ const form = document.querySelector('.form-view');
 
 function validForm(e) {
   e.preventDefault();
-  const regex = /[a-z]/;
+  const regex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
   if (emailValue.value.match(regex)) {
     form.submit();
     return true;
