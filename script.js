@@ -100,22 +100,18 @@ function getData(featuredImage, live, source) {
   linkLive.innerHTML = link;
 }
 
-
 // form validation
-
-document.querySelector('.form-view').addEventListener('submit', validForm);
-let form = document.querySelector('.form-view');
+const form = document.querySelector('.form-view');
 
 function validForm(e) {
   e.preventDefault();
   const regex = /[a-z]/;
-  if(emailValue.value.match(regex)){
-   console.log('working');
-   form.submit();
-   return true;
-  }else {
-   console.log('error');
-   errorMsg.innerHTML = "please email is invalid";
-   return false;
+  if (emailValue.value.match(regex)) {
+    form.submit();
+    return true;
   }
-};
+  errorMsg.innerHTML = 'please email is invalid';
+  return false;
+}
+
+document.querySelector('.form-view').addEventListener('submit', validForm);
