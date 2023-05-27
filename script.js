@@ -6,6 +6,8 @@ const popUpImage = document.querySelector('.pop-image');
 const linkLive = document.querySelector('.pop-button');
 const errorMsg = document.querySelector('.msg');
 const emailValue = document.querySelector('.emailValue');
+const nameValue = document.querySelector('.nameValue');
+const msgValue = document.querySelector('.msgValue');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -115,3 +117,25 @@ function validForm(e) {
 }
 
 document.querySelector('.form-view').addEventListener('submit', validForm);
+
+function storeData() {
+  const formData = {
+    name: nameValue.value,
+    email: emailValue.value,
+    message: msgValue.value,
+  };
+  localStorage.setItem('formdata', JSON.stringify(formData));
+}
+
+document.querySelector('.form-view').addEventListener('submit', storeData);
+
+function loadData() {
+  const userData = JSON.parse(localStorage.getItem('formdata'));
+  if (userData !== 'undefined' || userData !== null) {
+    nameValue.value = userData.name;
+    emailValue.value = userData.email;
+    msgValue.value = userData.message;
+  }
+}
+
+window.onload = loadData;
